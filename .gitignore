@@ -1,0 +1,22 @@
+# バイナリファイル
+/awsmyinfo
+/bin/
+
+# Mac OSのファイル
+.DS_Store
+
+# 依存関係の一時ファイル
+/vendor/
+/go.sum
+
+# IDE関連のディレクトリ
+.idea/
+.vscode/
+
+# ビルド時の一時ファイル
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
