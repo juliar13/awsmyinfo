@@ -1,6 +1,7 @@
 # バイナリファイル
 /awsmyinfo
 /bin/
+awsmyinfo-*
 
 # Mac OSのファイル
 .DS_Store
