@@ -1,26 +1,26 @@
-# awsmyinfo
+# awsinfo
 
 AWSユーザーが切り替え可能なアカウントとロールを表示するCLIツール
 
 ## 概要
 
-`awsmyinfo`は、現在のIAMユーザーがスイッチできるAWSアカウントとそれに対応するロールを一覧表示するシンプルなCLIツールです。
+`awsinfo`は、現在のIAMユーザーがスイッチできるAWSアカウントとそれに対応するロールを一覧表示するシンプルなCLIツールです。
 
 ## インストール
 
 ### Homebrewを使用する場合
 
 ```bash
-brew tap juliar13/awsmyinfo
-brew install awsmyinfo
+brew tap juliar13/awsinfo
+brew install awsinfo
 ```
 
 ### ソースからビルドする場合
 
 ```bash
-git clone https://github.com/juliar13/awsmyinfo.git
-cd awsmyinfo
-go build -o awsmyinfo ./cmd/awsmyinfo
+git clone https://github.com/juliar13/awsinfo.git
+cd awsinfo
+go build -o awsinfo ./cmd/awsinfo
 ```
 
 ## 使い方
@@ -30,7 +30,7 @@ go build -o awsmyinfo ./cmd/awsmyinfo
 コマンドを引数なしで実行すると、現在のAWSプロファイルに設定されているユーザーの情報を取得します。
 
 ```bash
-awsmyinfo
+awsinfo
 ```
 
 ### 特定のユーザー名を指定する場合
@@ -38,7 +38,7 @@ awsmyinfo
 ユーザー名を引数として指定することもできます。
 
 ```bash
-awsmyinfo user-name
+awsinfo user-name
 ```
 
 ## 出力例
