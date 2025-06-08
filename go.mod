@@ -1,4 +1,4 @@
-module github.com/juliar13/awsmyinfo
+module github.com/juliar13/awsinfo
 
 go 1.24.2
 
