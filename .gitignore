@@ -6,6 +6,10 @@ awsmyinfo-*
 # Mac OSのファイル
 .DS_Store
 
+# 機密情報を含むファイル
+accounts.csv
+*.csv
+
 # 依存関係の一時ファイル
 /vendor/
 /go.sum
