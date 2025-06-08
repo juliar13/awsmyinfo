@@ -9,9 +9,18 @@ import (
 	"github.com/juliar13/awsmyinfo/pkg/aws"
 )
 
+const version = "0.1.0"
+
 func main() {
 	// フラグの設定
+	var showVersion = flag.Bool("version", false, "バージョン情報を表示")
 	flag.Parse()
+
+	// バージョン情報の表示
+	if *showVersion {
+		fmt.Printf("awsmyinfo version %s\n", version)
+		return
+	}
 
 	// コンテキストの作成
 	ctx := context.Background()
